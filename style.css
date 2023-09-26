@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(23, 1, 43);
+}
+.container{
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 200px;
+    
+
+}
+.input-box{
+    width: 400px;
+    background: #fff; 
+    padding: 20px 0;
+}
+.input-box h3{
+    margin: 0 10px; 
+}
+.input-box input{
+    width: 90%;
+    margin: 12px 10px;
+    outline: none;
+    padding: 12px 0;
+    font-size: 1rem;
+   
+}
+.input-box button{
+    width: 90%;
+    margin: 12px 10px;
+    outline: none;
+    padding: 12px 0;
+    font-size: 1rem;
+    color: #fff;
+    background: blue;
+    border: none;
+    outline: none;
+    cursor: pointer;
+   
+}
+
